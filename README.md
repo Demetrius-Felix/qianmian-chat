@@ -20,7 +20,7 @@ npm install
 npm run build
 ```
 
-3. 启动
+4. 启动
 
 ```bash
 npm run dev
