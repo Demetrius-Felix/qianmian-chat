@@ -1,0 +1,176 @@
+{
+  "id": "room_mpmmnjgh_luwqor",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_childhood_lover",
+      "e_qi_yu"
+    ],
+    "activeRoleIds": [
+      "e_childhood_lover",
+      "e_qi_yu"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmmnucj_upds6u",
+      "roomId": "room_mpmmnjgh_luwqor",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "肏死你的妈",
+      "createdAt": 1779799488355,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmmnv67_41sow9",
+      "roomId": "room_mpmmnjgh_luwqor",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "滚蛋，又被哪个王八蛋气着了？",
+      "createdAt": 1779799489423,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2073
+      }
+    },
+    {
+      "id": "m_mpmmnxfq_nfmsqp",
+      "roomId": "room_mpmmnjgh_luwqor",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "行行行，你骂吧骂吧，我听着呢。",
+      "createdAt": 1779799492358,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2943
+      }
+    },
+    {
+      "id": "m_mpmmo0x8_um30nw",
+      "roomId": "room_mpmmnjgh_luwqor",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哎哟，今天火气这么大呢？来，跟我说说。",
+      "createdAt": 1779799496876,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2570
+      }
+    },
+    {
+      "id": "m_mpmmo3y2_5jjepg",
+      "roomId": "room_mpmmnjgh_luwqor",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哎哟，今天火气这么大呢？来，跟我说说。",
+      "createdAt": 1779799500794,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2982
+      }
+    },
+    {
+      "id": "m_mpmmo7tg_u6gnlx",
+      "roomId": "room_mpmmnjgh_luwqor",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "骂痛快没？我陪着你呢。",
+      "createdAt": 1779799505812,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3230
+      }
+    },
+    {
+      "id": "m_mpmmob2z_yuy54a",
+      "roomId": "room_mpmmnjgh_luwqor",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "嗯，歇口气，慢慢说给我听，我在呢。",
+      "createdAt": 1779799510043,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2441
+      }
+    },
+    {
+      "id": "m_mpmmoecb_r2d0pg",
+      "roomId": "room_mpmmnjgh_luwqor",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "stop",
+      "createdAt": 1779799514267,
+      "meta": {
+        "interruptType": "stop",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "滚蛋，又被哪个王八蛋气着了 | 行行行，你骂吧骂吧，我听着呢 | 哎哟，今天火气这么大呢；来，跟我说说"
+    },
+    "e_qi_yu": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "骂痛快没；我陪着你呢 | 嗯，歇口气，慢慢说给我听，我在呢"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [
+    {
+      "id": "i_mpmmoecc_mqvtov",
+      "type": "stop",
+      "content": "stop",
+      "createdAt": 1779799514268
+    }
+  ],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 2,
+  "lastSpeakerRoleId": "e_qi_yu"
+}

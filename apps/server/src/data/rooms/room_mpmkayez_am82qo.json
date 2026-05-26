@@ -1,0 +1,84 @@
+{
+  "id": "room_mpmkayez_am82qo",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "activeRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmkbbrg_ie4bcc",
+      "roomId": "room_mpmkayez_am82qo",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "有人吗",
+      "createdAt": 1779795545164,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmkbcim_nyhex8",
+      "roomId": "room_mpmkayez_am82qo",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795546142,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmkghqc_2zj6kw",
+      "roomId": "room_mpmkayez_am82qo",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "stop",
+      "createdAt": 1779795786180,
+      "meta": {
+        "interruptType": "stop",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "(信号不好，先不说了)"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [
+    {
+      "id": "i_mpmkghqc_5jrnse",
+      "type": "stop",
+      "content": "stop",
+      "createdAt": 1779795786180
+    }
+  ],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 0,
+  "lastSpeakerRoleId": "e_childhood_lover"
+}

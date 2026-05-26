@@ -1,0 +1,23 @@
+{
+  "name": "qianmian-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "千面聊天：多人设自动对话聊天室（Web）",
+  "scripts": {
+    "dev": "concurrently -n web,server -c blue,green \"npm run dev -w @qianmian/web\" \"npm run dev -w @qianmian/server\"",
+    "dev:web": "npm run dev -w @qianmian/web",
+    "dev:server": "npm run dev -w @qianmian/server",
+    "build": "npm run build -w @qianmian/shared && npm run build -w @qianmian/web && npm run build -w @qianmian/server",
+    "lint": "npm run lint -w @qianmian/shared && npm run lint -w @qianmian/web && npm run lint -w @qianmian/server"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

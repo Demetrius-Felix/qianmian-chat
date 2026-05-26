@@ -1,0 +1,485 @@
+{
+  "id": "room_mpmk4paw_jdoyw0",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "activeRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmk600t_waq1km",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "narrator",
+      "speakerName": "旁白",
+      "content": "大家好，欢迎来到这个聊天室。我们先围绕目标开始聊聊吧，谁先起个头？",
+      "createdAt": 1779795296669,
+      "meta": {
+        "intent": "transition",
+        "phase": "free"
+      }
+    },
+    {
+      "id": "m_mpmk61wp_0rh7qc",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795299114,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk637r_z6nhb1",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795300807,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk646h_ybgmwk",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795302057,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk64up_ehdu0e",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795302929,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk67dw_qj82yk",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795306212,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk68m2_on5l34",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795307803,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6aa4_ao3vdv",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "让我先说",
+      "createdAt": 1779795309964,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmk6bcr_qfjgwe",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795311355,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6ci5_xe4fh1",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795312845,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6dss_f3iwa4",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795314524,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6g67_gs9r4u",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795317599,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6h3x_p6cyit",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795318813,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6i3d_qjj2sn",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795320089,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6j9q_h65nlc",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795321614,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6kh0_r632f1",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795323172,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 4,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6mvw_e5j7zj",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795326300,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6nrv_3aqmjo",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795327451,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6qfl_ra9cnm",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795330897,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6rgb_v2jhwa",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795332219,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6tym_v7v2px",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795335470,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6wur_5bf26i",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795339219,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk6zgw_o6z817",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795342608,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk70rx_wiymks",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795344301,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk71er_1u0eia",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795345123,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk727q_muzywh",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795346166,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk74nj_1d05v2",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795349327,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk75j2_xzekii",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795350462,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk788a_qz0h7k",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795353962,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmk797p_hwnzec",
+      "roomId": "room_mpmk4paw_jdoyw0",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779795355237,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_abstract_funny": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "(信号不好，先不说了)"
+    },
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "(信号不好，先不说了)"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 11,
+  "lastSpeakerRoleId": "e_abstract_funny"
+}

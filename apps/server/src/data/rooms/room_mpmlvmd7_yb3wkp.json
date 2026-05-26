@@ -1,0 +1,278 @@
+{
+  "id": "room_mpmlvmd7_yb3wkp",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_childhood_lover",
+      "e_qi_yu"
+    ],
+    "activeRoleIds": [
+      "e_childhood_lover",
+      "e_qi_yu"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmlvyx7_4qgtha",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "喂喂喂",
+      "createdAt": 1779798187915,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmlvzk6_gvumdp",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "叫啥叫呢，直接说事儿。",
+      "createdAt": 1779798188742,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2745
+      }
+    },
+    {
+      "id": "m_mpmlw2ne_wck646",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "又咋了，你事儿真多啊。",
+      "createdAt": 1779798192746,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2193
+      }
+    },
+    {
+      "id": "m_mpmlw4yx_9b1o6h",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "大半夜的叫我干嘛…饿了？我去煮点吃的？",
+      "createdAt": 1779798195753,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2452
+      }
+    },
+    {
+      "id": "m_mpmlw7ym_knfmgh",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "咋了咋了，半夜叫魂呢你。饿了去厨房找吃的。",
+      "createdAt": 1779798199630,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2966
+      }
+    },
+    {
+      "id": "m_mpmlwbnr_gs1x8v",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "这么晚还不睡…是饿了吗？",
+      "createdAt": 1779798204423,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2234
+      }
+    },
+    {
+      "id": "m_mpmlweeq_ttwukn",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "冰箱里还有点牛奶...要帮你热一杯吗？",
+      "createdAt": 1779798207986,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2514
+      }
+    },
+    {
+      "id": "m_mpmlwhmd_lubiw9",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "夜猫子...睡不着吗？",
+      "createdAt": 1779798212149,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2650
+      }
+    },
+    {
+      "id": "m_mpmlwkgq_qkspn8",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "嗯...夜风有点凉呢，要一起坐会儿吗？",
+      "createdAt": 1779798215834,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2741
+      }
+    },
+    {
+      "id": "m_mpmlwoxb_2oq7w8",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哟，还挺体贴。那你冷不冷啊？",
+      "createdAt": 1779798221615,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2722
+      }
+    },
+    {
+      "id": "m_mpmlws91_xihnbe",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "啧，嘴硬啥呢，赶紧去睡吧你。",
+      "createdAt": 1779798225925,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2236
+      }
+    },
+    {
+      "id": "m_mpmlwutj_ejx4mj",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哈，嘴还挺硬。赶紧去睡吧，明早头疼我可不管你。",
+      "createdAt": 1779798229255,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1886
+      }
+    },
+    {
+      "id": "m_mpmlwwz7_yvkib9",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "",
+      "createdAt": 1779798232051,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1434
+      }
+    },
+    {
+      "id": "m_mpmlwy2p_z2pk7l",
+      "roomId": "room_mpmlvmd7_yb3wkp",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "stop",
+      "createdAt": 1779798233473,
+      "meta": {
+        "interruptType": "stop",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "哟，还挺体贴；那你冷不冷啊 | 啧，嘴硬啥呢，赶紧去睡吧你 | 哈，嘴还挺硬；赶紧去睡吧，明早头疼我可不管你"
+    },
+    "e_qi_yu": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "这么晚还不睡…是饿了吗 | 冰箱里还有点牛奶...要帮你热一杯吗 | 夜猫子...睡不着吗"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [
+    {
+      "id": "i_mpmlwy2q_u5dite",
+      "type": "stop",
+      "content": "stop",
+      "createdAt": 1779798233474
+    }
+  ],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 2,
+  "lastSpeakerRoleId": "e_childhood_lover"
+}

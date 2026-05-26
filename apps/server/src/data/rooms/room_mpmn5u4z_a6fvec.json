@@ -1,0 +1,461 @@
+{
+  "id": "room_mpmn5u4z_a6fvec",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_childhood_lover",
+      "e_qi_yu"
+    ],
+    "activeRoleIds": [
+      "e_childhood_lover",
+      "e_qi_yu"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmn5yt7_veoft9",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "narrator",
+      "speakerName": "旁白",
+      "content": "大家好，欢迎来到这个聊天室。我们先围绕目标开始聊聊吧，谁先起个头？",
+      "createdAt": 1779800333947,
+      "meta": {
+        "intent": "transition",
+        "phase": "free"
+      }
+    },
+    {
+      "id": "m_mpmn60xy_7k7o3e",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哼，又在熬夜打游戏啊？赶紧去睡，明天还得上班呢。",
+      "createdAt": 1779800336710,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3653
+      }
+    },
+    {
+      "id": "m_mpmn64pz_8tngvx",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "又通宵啦？早饭吃了没，空腹打游戏胃受不了的。",
+      "createdAt": 1779800341607,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2818
+      }
+    },
+    {
+      "id": "m_mpmn68xm_w0d890",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "嗯...确实通宵了。你也没睡？",
+      "createdAt": 1779800347066,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2507
+      }
+    },
+    {
+      "id": "m_mpmn6c0v_tegxr2",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "凌晨四点了，要不过来喝杯热茶醒醒神？",
+      "createdAt": 1779800351071,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2718
+      }
+    },
+    {
+      "id": "m_mpmn6gsa_4o487w",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "啧，凌晨四点了还喊我喝茶，你这不是存心要我跟着你熬夜嘛！快去睡啦！",
+      "createdAt": 1779800357242,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 4652
+      }
+    },
+    {
+      "id": "m_mpmn6ky7_cvg1vb",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "你最近咋总熬夜啊，有啥心事？",
+      "createdAt": 1779800362639,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1975
+      }
+    },
+    {
+      "id": "m_mpmn6p4z_rjglpu",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "习惯了夜晚的宁静。你又在担心我了？",
+      "createdAt": 1779800368067,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3364
+      }
+    },
+    {
+      "id": "m_mpmn6u6m_y5tl21",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "切，少来这套。不说拉倒，我还不乐意管你呢。",
+      "createdAt": 1779800374606,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2599
+      }
+    },
+    {
+      "id": "m_mpmn6x3d_o50tb3",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哼，我才懒得管你。不过你要是想说，我勉强听着也行。",
+      "createdAt": 1779800378377,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2131
+      }
+    },
+    {
+      "id": "m_mpmn71nv_kcqzhe",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "",
+      "createdAt": 1779800384299,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2172
+      }
+    },
+    {
+      "id": "m_mpmn73bv_xaqssg",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "让我说两句行吗",
+      "createdAt": 1779800386459,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmn75qh_m11lpu",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "行啊行啊，你倒是会说句话，我来听听。",
+      "createdAt": 1779800389577,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2724
+      }
+    },
+    {
+      "id": "m_mpmn78j0_7fh2w9",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "行啊行啊，你倒是会说句话，我来听听。",
+      "createdAt": 1779800393196,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1997
+      }
+    },
+    {
+      "id": "m_mpmn7acy_fk9h69",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "我抑郁了",
+      "createdAt": 1779800395570,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "mild",
+        "sensitiveCategories": [
+          "depression"
+        ],
+        "sensitiveMatchedWords": [
+          "重度消极"
+        ]
+      }
+    },
+    {
+      "id": "m_mpmn7acy_vnx6y1",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "system",
+      "speakerName": "情感守护",
+      "content": "我感受到你现在的压力和低落了，这并不丢人。我们可以先把最难受的那一件事说清，再一起拆成一个今天能做到的小步骤。",
+      "createdAt": 1779800395570,
+      "meta": {
+        "sensitive": "mild",
+        "sensitiveCategories": [
+          "depression"
+        ],
+        "sensitiveMatchedWords": [
+          "重度消极"
+        ]
+      }
+    },
+    {
+      "id": "m_mpmn7bab_1qqx3a",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "啧，又开始了是不？走走走，带你出去转转散散心。",
+      "createdAt": 1779800396771,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2930
+      }
+    },
+    {
+      "id": "m_mpmn7gne_pfy8kg",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "夜里安静，适合说说话。你要是困了就先睡。",
+      "createdAt": 1779800403722,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2735
+      }
+    },
+    {
+      "id": "m_mpmn7jlw_az4v56",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "那就坐这陪你说说话吧。",
+      "createdAt": 1779800407557,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2791
+      }
+    },
+    {
+      "id": "m_mpmn7n1m_9ymla2",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "夜色还长，我陪着你。想哭就哭，不想说话也成。",
+      "createdAt": 1779800412010,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3278
+      }
+    },
+    {
+      "id": "m_mpmn7sn0_qy2ovn",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "啧，半夜矫情啥呢，我陪你溜达会儿呗。",
+      "createdAt": 1779800419260,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3850
+      }
+    },
+    {
+      "id": "m_mpmn7wpr_7bew9w",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "啧，谁要你陪啊。不过既然都醒了，还出去不？",
+      "createdAt": 1779800424543,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2504
+      }
+    },
+    {
+      "id": "m_mpmn81nm_tnu869",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "夜色正深。要坐我旁边吗？给你留了杯温茶。",
+      "createdAt": 1779800430946,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2887
+      }
+    },
+    {
+      "id": "m_mpmn84ye_1merng",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "",
+      "createdAt": 1779800435222,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1057
+      }
+    },
+    {
+      "id": "m_mpmn85rq_xa3egt",
+      "roomId": "room_mpmn5u4z_a6fvec",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "stop",
+      "createdAt": 1779800436278,
+      "meta": {
+        "interruptType": "stop",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "啧，又开始了是不；走走走，带你出去转转散散心 | 啧，半夜矫情啥呢，我陪你溜达会儿呗 | 啧，谁要你陪啊；不过既然都醒了，还出去不"
+    },
+    "e_qi_yu": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "那就坐这陪你说说话吧 | 夜色还长，我陪着你；想哭就哭，不想说话也成 | 夜色正深；要坐我旁边吗"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [
+    {
+      "id": "i_mpmn85rq_ckjtnc",
+      "type": "stop",
+      "content": "stop",
+      "createdAt": 1779800436278
+    }
+  ],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 10,
+  "lastSpeakerRoleId": "e_qi_yu"
+}

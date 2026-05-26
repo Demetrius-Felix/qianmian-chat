@@ -1,0 +1,279 @@
+{
+  "id": "room_mpmsbtbe_n7orwk",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_childhood_lover",
+      "e_qi_yu"
+    ],
+    "activeRoleIds": [
+      "e_childhood_lover",
+      "e_qi_yu"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmsc04x_j6pgvj",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "hello",
+      "createdAt": 1779809013681,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmsc0yf_y5m4on",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哟，太阳打西边出来了，舍得说话啦？",
+      "createdAt": 1779809014743,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2208
+      }
+    },
+    {
+      "id": "m_mpmsc3gx_yjx9t5",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "啧，稀客啊，我还以为你把我给忘了。",
+      "createdAt": 1779809018001,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2919
+      }
+    },
+    {
+      "id": "m_mpmsc6r7_lfeowz",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "切，突然冒泡，我还以为你掉线了呢。",
+      "createdAt": 1779809022259,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1789
+      }
+    },
+    {
+      "id": "m_mpmsc9a8_byyip2",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "嗯哼，今天咋这么乖，还主动打招呼。",
+      "createdAt": 1779809025536,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2323
+      }
+    },
+    {
+      "id": "m_mpmsccrr_slgll5",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "嗯...你今天终于开口说话了呢。",
+      "createdAt": 1779809030055,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2461
+      }
+    },
+    {
+      "id": "m_mpmscfdz_np74j4",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "嗯...你手腕上那片蓝色，总让我想起海。",
+      "createdAt": 1779809033447,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3142
+      }
+    },
+    {
+      "id": "m_mpmscj15_tj3l5c",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "",
+      "createdAt": 1779809038169,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 799
+      }
+    },
+    {
+      "id": "m_mpmscjmy_v23o2w",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "我抑郁了",
+      "createdAt": 1779809038954,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "mild",
+        "sensitiveCategories": [
+          "depression"
+        ],
+        "sensitiveMatchedWords": [
+          "重度消极"
+        ]
+      }
+    },
+    {
+      "id": "m_mpmscjmy_2rwxx3",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "system",
+      "speakerName": "情感守护",
+      "content": "我感受到你现在的压力和低落了，这并不丢人。我们可以先把最难受的那一件事说清，再一起拆成一个今天能做到的小步骤。",
+      "createdAt": 1779809038954,
+      "meta": {
+        "sensitive": "mild",
+        "sensitiveCategories": [
+          "depression"
+        ],
+        "sensitiveMatchedWords": [
+          "重度消极"
+        ]
+      }
+    },
+    {
+      "id": "m_mpmsckfd_t7g34p",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_qi_yu",
+      "speakerName": "祁煜｜恋与深空",
+      "content": "嗯...那片蓝色，是海风的颜色呢。",
+      "createdAt": 1779809039977,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2268
+      }
+    },
+    {
+      "id": "m_mpmscp51_6ajfbh",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "咋了这是...别怕啊，有我在呢。",
+      "createdAt": 1779809046085,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3084
+      }
+    },
+    {
+      "id": "m_mpmscsjb_4tk6np",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哎哟喂，谁欺负你了？跟我说说话呗，不闷着。",
+      "createdAt": 1779809050487,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3292
+      }
+    },
+    {
+      "id": "m_mpmscw2i_4hk212",
+      "roomId": "room_mpmsbtbe_n7orwk",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "stop",
+      "createdAt": 1779809055066,
+      "meta": {
+        "interruptType": "stop",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "切，突然冒泡，我还以为你掉线了呢 | 咋了这是...别怕啊，有我在呢 | 哎哟喂，谁欺负你了；跟我说说话呗，不闷着"
+    },
+    "e_qi_yu": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "嗯...你今天终于开口说话了呢 | 嗯...你手腕上那片蓝色，总让我想起海 | 嗯...那片蓝色，是海风的颜色呢"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [
+    {
+      "id": "i_mpmscw2i_ybnydp",
+      "type": "stop",
+      "content": "stop",
+      "createdAt": 1779809055066
+    }
+  ],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 3,
+  "lastSpeakerRoleId": "e_childhood_lover"
+}

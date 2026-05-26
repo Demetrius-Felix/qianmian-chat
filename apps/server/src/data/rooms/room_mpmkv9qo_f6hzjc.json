@@ -1,0 +1,159 @@
+{
+  "id": "room_mpmkv9qo_f6hzjc",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "activeRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmkvcvv_h19ky9",
+      "roomId": "room_mpmkv9qo_f6hzjc",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "有人吗",
+      "createdAt": 1779796479739,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmkvdg6_evv42r",
+      "roomId": "room_mpmkv9qo_f6hzjc",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "有的有的，正在直播啃键盘呢！",
+      "createdAt": 1779796480470,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2308
+      }
+    },
+    {
+      "id": "m_mpmkvgb2_h069wi",
+      "roomId": "room_mpmkv9qo_f6hzjc",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "键盘糊了，等我吐口口水继续啃！",
+      "createdAt": 1779796484174,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1577
+      }
+    },
+    {
+      "id": "m_mpmkviin_hwvpgl",
+      "roomId": "room_mpmkv9qo_f6hzjc",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "键盘糊了，卡在喉咙里了，救命！！",
+      "createdAt": 1779796487039,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1508
+      }
+    },
+    {
+      "id": "m_mpmkvkoa_estv75",
+      "roomId": "room_mpmkv9qo_f6hzjc",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "键盘啃完了，现在改啃鼠标了哈！",
+      "createdAt": 1779796489834,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 3,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1692
+      }
+    },
+    {
+      "id": "m_mpmkvnvc_pt2zz9",
+      "roomId": "room_mpmkv9qo_f6hzjc",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "你少在这发疯啊，等会真把牙崩了。明天带你去吃炸鸡？",
+      "createdAt": 1779796493976,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2406
+      }
+    },
+    {
+      "id": "m_mpmlapxw_wtp3po",
+      "roomId": "room_mpmkv9qo_f6hzjc",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "去哪吃炸鸡？",
+      "createdAt": 1779797196500,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_abstract_funny": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "键盘糊了，等我吐口口水继续啃 | 键盘糊了，卡在喉咙里了，救命 | 键盘啃完了，现在改啃鼠标了哈"
+    },
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "你少在这发疯啊，等会真把牙崩了；明天带你去吃炸鸡"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [
+    {
+      "id": "i_mpmlapxx_lz64md",
+      "type": "ask",
+      "content": "去哪吃炸鸡？",
+      "createdAt": 1779797196501
+    }
+  ],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 2,
+  "lastSpeakerRoleId": "e_childhood_lover"
+}

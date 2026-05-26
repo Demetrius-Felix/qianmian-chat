@@ -1,0 +1,128 @@
+{
+  "id": "room_mpmkrme6_x186f9",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "activeRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmkrpj8_gwxdic",
+      "roomId": "room_mpmkrme6_x186f9",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "有人吗",
+      "createdAt": 1779796309508,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmkrq07_a52de5",
+      "roomId": "room_mpmkrme6_x186f9",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779796310119,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmkrr0h_0xswjq",
+      "roomId": "room_mpmkrme6_x186f9",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779796311425,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmkrry9_zmaazu",
+      "roomId": "room_mpmkrme6_x186f9",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779796312641,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmkrtpz_b8fe33",
+      "roomId": "room_mpmkrme6_x186f9",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779796314935,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    },
+    {
+      "id": "m_mpmkrui3_itdmxt",
+      "roomId": "room_mpmkrme6_x186f9",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779796315947,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "error": true
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_abstract_funny": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "(信号不好，先不说了)"
+    },
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "(信号不好，先不说了)"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 1,
+  "lastSpeakerRoleId": "e_childhood_lover"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "room_mpmkrdkh_jrhw21",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "activeRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [],
+  "summary": "",
+  "relationships": {},
+  "crossMemory": {},
+  "interruptQueue": [],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 0
+}

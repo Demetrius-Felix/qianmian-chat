@@ -1,0 +1,360 @@
+{
+  "id": "room_mpmlbvkt_twxotw",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "emotional",
+    "selectedRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "activeRoleIds": [
+      "e_abstract_funny",
+      "e_childhood_lover"
+    ],
+    "maxTurns": 30,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmlcilh_vsu7s7",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "喂喂喂，有人吗",
+      "createdAt": 1779797280293,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmlciz3_ewxjqx",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "喊啥呢，这不就来了嘛！",
+      "createdAt": 1779797280783,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3493
+      }
+    },
+    {
+      "id": "m_mpmlcmj4_t9i7w2",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "咋啦？这么急着喊我，想我了？",
+      "createdAt": 1779797285392,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2138
+      }
+    },
+    {
+      "id": "m_mpmlcplq_7spek9",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "哟？这儿是开茶话会还是咋的，我薯片都备好了，来不来？",
+      "createdAt": 1779797289374,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2453
+      }
+    },
+    {
+      "id": "m_mpmlcshq_r9p5wk",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "要不整点可乐配薯片，搞个气泡炸弹派对？",
+      "createdAt": 1779797293118,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2480
+      }
+    },
+    {
+      "id": "m_mpmlcwz6_4k4dwl",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "哈？你这又是闹哪出啊...不过薯片嘛倒是可以来点，别太过分啊。",
+      "createdAt": 1779797298930,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3036
+      }
+    },
+    {
+      "id": "m_mpmld29k_2tz7if",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "光吃薯片多没劲，搭点酸奶炖鞋底不？要不要来试试我的黑暗料理新菜谱！",
+      "createdAt": 1779797305784,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2755
+      }
+    },
+    {
+      "id": "m_mpmld7ay_z3ft11",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "可别祸害我的胃行不...你这整活是把厨房当实验室了啊。",
+      "createdAt": 1779797312314,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2597
+      }
+    },
+    {
+      "id": "m_mpmldc1x_ksis7r",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "实验成功的话，下一个就是冰箱了！要不先拿你试毒？",
+      "createdAt": 1779797318469,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2139
+      }
+    },
+    {
+      "id": "m_mpmldehy_w71b8l",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "冰箱里其实藏着外星人，要不要把他们做成超级英雄套餐？",
+      "createdAt": 1779797321638,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1905
+      }
+    },
+    {
+      "id": "m_mpmldir4_b5f710",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "",
+      "createdAt": 1779797327152,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1817
+      }
+    },
+    {
+      "id": "m_mpmldk57_6ir6i8",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "明天kfc疯狂星期四，吃炸鸡把",
+      "createdAt": 1779797328955,
+      "meta": {
+        "interruptType": "ask",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    },
+    {
+      "id": "m_mpmldl55_xsgvwf",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "行呗，反正我也馋了，明天你请客带我一起呗。",
+      "createdAt": 1779797330249,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2163
+      }
+    },
+    {
+      "id": "m_mpmldnm8_k7t655",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "他嘴里能吐出啥正经话，明天炸鸡局我占座，别迟到啊！",
+      "createdAt": 1779797333456,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2390
+      }
+    },
+    {
+      "id": "m_mpmldsi4_hai780",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_abstract_funny",
+      "speakerName": "抽象搞怪怪人",
+      "content": "炸鸡？那鸡是不是从冰箱里放出来的外星人变的啊？",
+      "createdAt": 1779797339788,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1767
+      }
+    },
+    {
+      "id": "m_mpmldwrn_em6jqs",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "得了吧你，炸鸡就炸鸡，哪来那么多外星人啊。明天几点到？",
+      "createdAt": 1779797345315,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3121
+      }
+    },
+    {
+      "id": "m_mpmle021_vzpp4d",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "废话真多，我明天下午一点到，你几点来？",
+      "createdAt": 1779797349577,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1517
+      }
+    },
+    {
+      "id": "m_mpmle2g7_u5w3h7",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "role",
+      "speakerId": "e_childhood_lover",
+      "speakerName": "青梅竹马",
+      "content": "",
+      "createdAt": 1779797352679,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1924
+      }
+    },
+    {
+      "id": "m_mpmle3xm_swus66",
+      "roomId": "room_mpmlbvkt_twxotw",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "行了，别说话了1",
+      "createdAt": 1779797354602,
+      "meta": {
+        "interruptType": "stop",
+        "sensitive": "none",
+        "sensitiveCategories": [],
+        "sensitiveMatchedWords": []
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "e_childhood_lover": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "他嘴里能吐出啥正经话，明天炸鸡局我占座，别迟到啊 | 得了吧你，炸鸡就炸鸡，哪来那么多外星人啊；明天几点到 | 废话真多，我明天下午一点到，你几点来"
+    },
+    "e_abstract_funny": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "实验成功的话，下一个就是冰箱了；要不先拿你试毒 | 冰箱里其实藏着外星人，要不要把他们做成超级英雄套餐 | 炸鸡；那鸡是不是从冰箱里放出来的外星人变的啊"
+    }
+  },
+  "crossMemory": {},
+  "interruptQueue": [
+    {
+      "id": "i_mpmle3xm_zutqkv",
+      "type": "stop",
+      "content": "行了，别说话了1",
+      "createdAt": 1779797354602
+    }
+  ],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 8,
+  "lastSpeakerRoleId": "e_childhood_lover"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "room_mpmjgsyb_rdnju9",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "group",
+    "selectedRoleIds": [
+      "g_optimist",
+      "g_storyteller"
+    ],
+    "activeRoleIds": [
+      "g_optimist",
+      "g_storyteller"
+    ],
+    "maxTurns": 24,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mpmjh46u_1qofbi",
+      "roomId": "room_mpmjgsyb_rdnju9",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "喂喂喂",
+      "createdAt": 1779794135670,
+      "meta": {
+        "interruptType": "ask"
+      }
+    },
+    {
+      "id": "m_mpmjh6c0_buvoji",
+      "roomId": "room_mpmjgsyb_rdnju9",
+      "speakerType": "role",
+      "speakerId": "g_optimist",
+      "speakerName": "乐观派小光",
+      "content": " (信号不好，先不说了) ",
+      "createdAt": 1779794138449,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "error": true
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "g_optimist": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "(信号不好，先不说了)"
+    }
+  },
+  "crossMemory": {
+    "g_optimist": {}
+  },
+  "interruptQueue": [],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 0,
+  "lastSpeakerRoleId": "g_optimist"
+}

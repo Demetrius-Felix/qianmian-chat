@@ -1,0 +1,26 @@
+{
+  "id": "room_mpmmzmb4_pjyzb0",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "group",
+    "selectedRoleIds": [
+      "g_storyteller",
+      "g_teacher"
+    ],
+    "activeRoleIds": [
+      "g_storyteller",
+      "g_teacher"
+    ],
+    "maxTurns": 24,
+    "windowSize": 20
+  },
+  "messages": [],
+  "summary": "",
+  "relationships": {},
+  "crossMemory": {},
+  "interruptQueue": [],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 0
+}

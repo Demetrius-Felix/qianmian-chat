@@ -1,0 +1,382 @@
+{
+  "id": "room_mouzd1lx_6qwc2m",
+  "config": {
+    "name": "千面聊天室",
+    "templateId": "group",
+    "selectedRoleIds": [
+      "g_optimist",
+      "g_storyteller",
+      "g_teacher"
+    ],
+    "activeRoleIds": [
+      "g_optimist",
+      "g_storyteller",
+      "g_teacher"
+    ],
+    "maxTurns": 24,
+    "windowSize": 20
+  },
+  "messages": [
+    {
+      "id": "m_mouzdodt_6rxzrf",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "讲个笑话吧",
+      "createdAt": 1778127796145,
+      "meta": {
+        "interruptType": "ask"
+      }
+    },
+    {
+      "id": "m_mouzdpvr_s7fbc2",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_teacher",
+      "speakerName": "启发式导师",
+      "content": "笑点往往藏在反问里呢。学生问老师：“为什么总提问我？”你说呢？",
+      "createdAt": 1778127798087,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2394
+      }
+    },
+    {
+      "id": "m_mouzdvz4_7c34o3",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_optimist",
+      "speakerName": "乐观派小光",
+      "content": "哈哈哈这笑话赞！提问=被重视，大家说是不是？",
+      "createdAt": 1778127805984,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2892
+      }
+    },
+    {
+      "id": "m_mouze1tl_by48nv",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "什么啊",
+      "createdAt": 1778127813562,
+      "meta": {
+        "interruptType": "ask"
+      }
+    },
+    {
+      "id": "m_mouze447_vo23y3",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_teacher",
+      "speakerName": "启发式导师",
+      "content": "不理解反问的妙处吗？你觉得学生为什么这样问？",
+      "createdAt": 1778127816535,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2912
+      }
+    },
+    {
+      "id": "m_mouze9jd_26ilze",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "为什么",
+      "createdAt": 1778127823561,
+      "meta": {
+        "interruptType": "ask"
+      }
+    },
+    {
+      "id": "m_mouzecms_0kao5o",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_optimist",
+      "speakerName": "乐观派小光",
+      "content": "哈哈，因为老师想让你动脑呢，对吧？",
+      "createdAt": 1778127827572,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1860
+      }
+    },
+    {
+      "id": "m_mouzek16_5b5n2a",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_teacher",
+      "speakerName": "启发式导师",
+      "content": "钓鱼和吃鱼的差别在哪？你觉得哪个才是真正的学习呢？",
+      "createdAt": 1778127837162,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2810
+      }
+    },
+    {
+      "id": "m_mouzenlt_wk4xoh",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "user",
+      "speakerName": "用户",
+      "content": "所以笑点在哪里",
+      "createdAt": 1778127841793,
+      "meta": {
+        "interruptType": "ask"
+      }
+    },
+    {
+      "id": "m_mouzep1b_4jbq5s",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_teacher",
+      "speakerName": "启发式导师",
+      "content": "笑点就像钓鱼，你觉得自己是在钓鱼还是被钓呢？",
+      "createdAt": 1778127843647,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2434
+      }
+    },
+    {
+      "id": "m_mouzesus_c32oeg",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_teacher",
+      "speakerName": "启发式导师",
+      "content": "把回答当鱼饵容易被钓走哦。小光，你觉得呢？",
+      "createdAt": 1778127848596,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 2,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 3675
+      }
+    },
+    {
+      "id": "m_mouzf0b3_mxa347",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_optimist",
+      "speakerName": "乐观派小光",
+      "content": "笑点在我们都爱思考这个点上呢！你发现没，动脑的时候最快乐啦？",
+      "createdAt": 1778127858255,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2446
+      }
+    },
+    {
+      "id": "m_mouzf87l_ux8hba",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_teacher",
+      "speakerName": "启发式导师",
+      "content": "动脑就像解谜，你觉得解谜的过程更快乐，还是结果呢？",
+      "createdAt": 1778127868497,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1961
+      }
+    },
+    {
+      "id": "m_mouzffiv_j4hslx",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_optimist",
+      "speakerName": "乐观派小光",
+      "content": "过程呀！每次解开谜题都像发现新大陆呢~你有没有偷偷记下什么新收获呀？",
+      "createdAt": 1778127877975,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 1530
+      }
+    },
+    {
+      "id": "m_mouzfmat_dli7er",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_teacher",
+      "speakerName": "启发式导师",
+      "content": "过程快乐但容易忘了目标呢。被问题牵着走，会不会像鱼游得太开心被钓上来？",
+      "createdAt": 1778127886757,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2293
+      }
+    },
+    {
+      "id": "m_mouzfq7h_kgmc7u",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_teacher",
+      "speakerName": "启发式导师",
+      "content": "目标像北极星，过程像走路，但你得时不时抬头看看方向呀。",
+      "createdAt": 1778127891821,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 1,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2557
+      }
+    },
+    {
+      "id": "m_mouzfyc0_827f3d",
+      "roomId": "room_mouzd1lx_6qwc2m",
+      "speakerType": "role",
+      "speakerId": "g_storyteller",
+      "speakerName": "故事咖小岚",
+      "content": "月光洒在湖面，像碎银子落入渔网。  \n网兜轻轻一捞，却打捞起沉在水底的疑问。  \n你们打捞到了什么呀？",
+      "createdAt": 1778127902352,
+      "meta": {
+        "intent": "respond",
+        "phase": "free",
+        "burstIndex": 0,
+        "mode": "llm",
+        "model": "deepseek-v4-flash",
+        "latencyMs": 2492
+      }
+    }
+  ],
+  "summary": "",
+  "relationships": {
+    "g_teacher": {
+      "intimacy": 51,
+      "dynamicTrait": "中立友好",
+      "memo": "笑点就像钓鱼，你觉得自己是在钓鱼还是被钓呢 | 动脑就像解谜，你觉得解谜的过程更快乐，还是结果呢 | 过程快乐但容易忘了目标呢；被问题牵着走，会不会像鱼游得太开心被钓上来"
+    },
+    "g_optimist": {
+      "intimacy": 53,
+      "dynamicTrait": "中立友好",
+      "memo": "哈哈，因为老师想让你动脑呢，对吧 | 笑点在我们都爱思考这个点上呢；你发现没，动脑的时候最快乐啦 | 过程呀；每次解开谜题都像发现新大陆呢~你有没有偷偷记下什么新收获呀"
+    },
+    "g_storyteller": {
+      "intimacy": 50,
+      "dynamicTrait": "中立友好",
+      "memo": "月光洒在湖面，像碎银子落入渔网；"
+    }
+  },
+  "crossMemory": {
+    "g_teacher": {
+      "g_optimist": [
+        {
+          "content": "关于 乐观派小光：乐观派小光 说过 \"哈哈哈这笑话赞！提问=被重视，大家说是不是？\"",
+          "createdAt": 1778127819448
+        },
+        {
+          "content": "关于 乐观派小光：乐观派小光 说过 \"哈哈，因为老师想让你动脑呢，对吧？\"",
+          "createdAt": 1778127839974
+        },
+        {
+          "content": "关于 乐观派小光：乐观派小光 说过 \"笑点在我们都爱思考这个点上呢！你发现没，动脑的时候最快乐啦？\"",
+          "createdAt": 1778127870458
+        },
+        {
+          "content": "关于 乐观派小光：乐观派小光 说过 \"过程呀！每次解开谜题都像发现新大陆呢~你有没有偷偷记下什么新收获呀？\"",
+          "createdAt": 1778127889051
+        }
+      ]
+    },
+    "g_optimist": {
+      "g_teacher": [
+        {
+          "content": "关于 启发式导师：启发式导师 说过 \"不理解反问的妙处吗？你觉得学生为什么这样问？\"",
+          "createdAt": 1778127829432
+        },
+        {
+          "content": "关于 启发式导师：启发式导师 说过 \"钓鱼和吃鱼的差别在哪？你觉得哪个才是真正的学习呢？\"",
+          "createdAt": 1778127860702
+        },
+        {
+          "content": "关于 启发式导师：启发式导师 说过 \"笑点就像钓鱼，你觉得自己是在钓鱼还是被钓呢？\"",
+          "createdAt": 1778127860702
+        },
+        {
+          "content": "关于 启发式导师：启发式导师 说过 \"把回答当鱼饵容易被钓走哦。小光，你觉得呢？\"",
+          "createdAt": 1778127860702
+        },
+        {
+          "content": "关于 启发式导师：启发式导师 说过 \"动脑就像解谜，你觉得解谜的过程更快乐，还是结果呢？\"",
+          "createdAt": 1778127879505
+        }
+      ]
+    },
+    "g_storyteller": {
+      "g_optimist": [
+        {
+          "content": "关于 乐观派小光：乐观派小光 说过 \"笑点在我们都爱思考这个点上呢！你发现没，动脑的时候最快乐啦？\"",
+          "createdAt": 1778127904845
+        },
+        {
+          "content": "关于 乐观派小光：乐观派小光 说过 \"过程呀！每次解开谜题都像发现新大陆呢~你有没有偷偷记下什么新收获呀？\"",
+          "createdAt": 1778127904845
+        }
+      ],
+      "g_teacher": [
+        {
+          "content": "关于 启发式导师：启发式导师 说过 \"动脑就像解谜，你觉得解谜的过程更快乐，还是结果呢？\"",
+          "createdAt": 1778127904845
+        },
+        {
+          "content": "关于 启发式导师：启发式导师 说过 \"过程快乐但容易忘了目标呢。被问题牵着走，会不会像鱼游得太开心被钓上来？\"",
+          "createdAt": 1778127904845
+        },
+        {
+          "content": "关于 启发式导师：启发式导师 说过 \"目标像北极星，过程像走路，但你得时不时抬头看看方向呀。\"",
+          "createdAt": 1778127904845
+        }
+      ]
+    }
+  },
+  "interruptQueue": [],
+  "running": false,
+  "mutedRoleIds": [],
+  "mentionRoleIds": [],
+  "turnIndex": 9,
+  "lastSpeakerRoleId": "g_storyteller"
+}
